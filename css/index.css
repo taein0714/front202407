@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.topnav {
+    background-color:  #2c4ebd;
+    overflow: hidden;
+    padding: 10px;
+
+}
+
+.topnav a {
+   
+    float:left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration-line:none ;
+
+}
+
+
+
+
+.footer {
+    background-color: #acaaaa;
+    padding: 10px 16px;
+}
+
+.footer h2 {
+    text-align: center;
+    color: white;
+}
