@@ -7,7 +7,6 @@ body {
 
 .topnav {
     background-color: #2c4ebd;
-    overflow: hidden;
     padding: 20px;
 
     position:fixed;
@@ -27,12 +26,9 @@ body {
 
 }
 
-
-
-
 .footer {
     background-color: #313131;
-    padding: 10px 16px;
+    padding: 30px 30px;
 }
 
 .footer h2 {
