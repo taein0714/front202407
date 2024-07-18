@@ -10,6 +10,18 @@ var result4 = document.getElementById("result4");
 
 var result5 = document.getElementById("result5");
 
+var result7 = document.getElementById("result7");
+
+var result8 = document.getElementById("result8");
+
+var result9 = document.getElementById("result9");
+
+var resul1t10 = document.getElementById("result10");
+
+var result11 = document.getElementById("result11");
+
+
+
 
 
 
@@ -106,3 +118,43 @@ for (let i = 2; i < 10; i++) {
 
     
 }
+
+result7.innerHTML = resultStr;
+
+// --------------
+
+var numWhile = 10;
+resultStr = "";
+
+//  numWhile이 0보다 크거나 같으면 {수행}
+while (numWhile < 0) {
+    // 조건에 맞을 경우 수행
+    resultStr += (numWhile + "<br>");
+
+    // 반드시***stop 조건을 꼭 넣어줘야 한다.
+    numWhile--;
+}
+result8.innerHTML = resultStr;
+
+// -----------------
+resultStr = "";
+var numDo = -10;
+
+// do의 특징: 일단 먼저 한번 수행해요
+do {
+    // ~~
+} while (numDo >= 0);
+
+// ------------------------
+
+resultStr = "";
+let numCnt;
+for (numCnt = 1; numCnt <= 10; numCnt++) {
+
+    if(numCnt == 3){
+        continue;
+    }
+    resultStr += (numCnt + "<br>");
+    
+}
+result10.innerHTML = resultStr;
