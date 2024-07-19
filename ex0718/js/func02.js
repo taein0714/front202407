@@ -48,3 +48,7 @@ func4(3, 5);
 // 5. 화살표 단축형
 const func5 = a => "02. 한줄 단축형";
 console.log(func5(3));
+
+// 6. 화살표 객체 리턴형__()로 객체 표현.
+const func6 = a => ({b: a});
+console.log(func6(25));
