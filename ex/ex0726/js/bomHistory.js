@@ -1,10 +1,17 @@
-var btn = document.getElementById("btn");
-btn.style.fontSize = "1.6em"
+var btn = document.querySelectorAll("input")
+// i = 0~3
+for(let i=0; i<btn.clientHeight; i++){
+    btn[i].style.backgroundColor = "lightblue";
+    btn[i].style.fontSize = "1.6em"
+}
 
-var btn2 = document.getElementById("btn2");
-btn2.style.fontSize = "1.6em"
 
 // var output = document.getElementById("output");
+
+
+function goHistory2(){
+    location.assign("./bomHistory2.html")
+}
 
 function goBack(){
     window.history.back();
@@ -15,9 +22,6 @@ function goForward(){
     window.history.forward();
 }
 
-function goHistory2(){
-    window.history.gohistory2();
-}
 function enCookie(){
     let output = document.getElementById("output");
     output.style.fontSize = "30px";

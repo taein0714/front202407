@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box 0;
+}
+
+
+ul {
+    /* 리스트 기호(점) 없애기 */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* width는 넉넉하게 display: block형 체크는 필수! */
+
+li a {
+    /* 메뉴 타겟(클릭영역) 확보하기__start */
+    display: block;
+    width: 80px;
+/* ********************_end */
+
+    background-color: #dddddd;
+    padding: 8px;
+
+    /* 밑줄 없애기 */
+    text-decoration: none;
+}
+
+
+
+
+li a:hover {
+    background-color: black;
+    color: white;
+}

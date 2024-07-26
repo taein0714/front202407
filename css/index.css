@@ -1,109 +1,93 @@
-
-
-* {
+/* 기본 */
+/* * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-
-body {
+ } */
+ 
+ .wrap {
+    width: 1920px;
+    height: 1080px;
+ }
+ 
+ /* 헤더 */
+ header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white
+ 
+ }
+ 
+ .logo {
+    width: 200px;
+    height: 60px;
+    background-color: #ffcccc;
+ }
+ 
+ 
+ .nav {
+    width: 1000px;
+    height: 100px;
+    background-color: antiquewhite;
     
-    /* width: 1920px;
-    height: 1080px; */
-    margin: 0 auto;
-    font-family: 'Times New Roman', Times, serif;
-}
+ }
 
-/* .container {
-    background-color: #2c4ebd;
-    padding: 40px;
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    justify-content: space-between;
-    
-} */
-
-
-.header {
-    /* display: flex;
-    justify-content: space-between; */
-    background-color: #2c4ebd;
-    padding: 40px;
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-   
-
-}
-
-.header h2 {
-
-    color: white;
+ ul {
+    display: flex;
+    justify-content: space-around;
+ }
+ 
+ 
+ /* 슬라이드 애니메이션 */
+ .slideContent {
+    height: 900px;
+    background-color: lightslategray
+ }
+ 
+ /* 공지사항 */
+ .content {
+    height: 200px;
+    background-color: #ffcccc;
+    display: flex;
+ 
+ }
+ 
+ .con1 {
+    width: 33.33%;
+    background-color: rgb(212, 224, 188);
+ }
+ 
+ .con2 {
+    width: 33.33%;
+    background-color: rgb(181, 223, 98);;
+ }
+ 
+ .con3 {
+    width: 33.33%;
+    background-color: rgb(212, 224, 188);
+ }
+ 
+ /* 푸터 */
+ footer {
+    height: 100px;
+    background-color: #636363;
     text-align: center;
-    font-size: 20px;
+    /* display: flex; */
+ }
+ 
+ /* .f1 { 
+    width: 20%; 
+    background-color: lightgray;
 
-}
-
-.main {
-
-    background-color: aliceblue;
-    padding: 100px;
-
-}
-
-.main h2 {
-    color: black;
-    text-align: center;
-    font-size: 20px;
-   
-   }
-
-.section {
-    background-color: rgb(193, 221, 247);
-    padding: 70px;
-
-}
-
-.section h2 {
-    color: black;
-    text-align: center;
-    font-size: 20px;
-}
-
-/* .topnav {
-    background-color: #2c4ebd;
-    padding: 20px;
-
-    position:fixed;
-    top: 0;
-     width: 100% 
-    left: 0;
-    right: 0;
-
-} */
-
-/* .topnav a {
-
-    float: left;
-    color: white;
-    padding: 14px 16px;
-    text-decoration-line: none;
-
-} */
-
-.footer {
-    background-color: #313131;
-    padding: 50px 30px;
-}
-
-.footer h2 {
-    text-align: center;
-    font-size: 20px;
-    color: white;
-}
+ }
+ 
+ .f2 {
+    width: 60%; 
+    background-color: yellow;
+ }
+ 
+ .f3 {
+    width: 20%;
+    background-color: lightgray;
+ } */

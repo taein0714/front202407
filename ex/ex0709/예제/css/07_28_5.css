@@ -1,0 +1,45 @@
+* {margin: 0; padding: 0;}
+img {vertical-align: middle;}
+#wrap {width: 100%; margin: 100px auto;}
+#wrap .img-wrap {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+
+    /* 부모(조상영역) Postition 설정하기 */
+
+    position: relative;
+}
+#wrap .img-wrap img {
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    transition: all 0.2s;
+}
+
+#wrap .img-wrap img:hover {
+    transform: scale(1.1);
+}
+
+#wrap .img-wrap span {
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;     /*글자 위 아래 가운데*/
+    text-align: center;     /*좌우가운데*/
+    background: #c33;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%; /*가격표 원형 만들기*/
+    /* Position 설정하기 */
+    /* 절대 위치 지정 요소 */
+    /* .img-warp position:relative 부모요소를 찾아가서 위치를 설정 */
+    z-index: 1;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}
+
+
+
+  

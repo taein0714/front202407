@@ -1,0 +1,13 @@
+.bg {
+    padding-bottom: 2000px;
+    background-color: aquamarine;
+}
+
+
+
+div.sticky {
+
+    background-color: blueviolet;
+    position: sticky;
+    top: 0;
+}

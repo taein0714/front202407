@@ -1,0 +1,38 @@
+
+/* ===== 본문 ===== */
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+section.row {
+    display: -webkit-box;
+    display: flex;
+}
+
+section.column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    height: 100px;
+    /* Should be removed. Only for demonstration */
+    border: 1px solid green;
+}
+
+/* ===== 푸터 ===== */
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+}
+
+footer>div {
+    
+}

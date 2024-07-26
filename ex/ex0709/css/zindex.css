@@ -1,0 +1,32 @@
+.container {
+    position: relative;
+    background: antiquewhite;
+}
+
+.black{
+    position: relative;
+border: 100px;
+margin: 30px;
+border: 1px solid black;
+
+}
+
+.gray {
+    position: absolute;
+    width: 70%;
+    height: 60px;
+    background-color: lightgray;
+    left: 50px;
+    top: 50px;
+
+}
+
+.green {
+    position: absolute;
+    width: 35%;
+    height: 100px;
+    background-color: lightgreen;
+    left: 270px;
+    top: -20px;
+
+}
