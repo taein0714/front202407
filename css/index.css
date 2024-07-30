@@ -1,8 +1,9 @@
 /* 기본 */
-/* * {
+* {
     margin: 0;
     padding: 0;
- } */
+    box-sizing: border-box;
+ }
  
  .wrap {
     width: 1920px;
@@ -11,8 +12,11 @@
  
  /* 헤더 */
  header {
-    height: 100px;
+    height: 80px;
     display: flex;
+    position:-webkit-sticky;
+    position:sticky;
+    top: 0;
     align-items: center;
     justify-content: space-around;
     background-color: white
@@ -23,12 +27,13 @@
     width: 200px;
     height: 60px;
     background-color: #ffcccc;
+    text-align: center;
  }
  
  
  .nav {
     width: 1000px;
-    height: 100px;
+    height: 80px;
     background-color: antiquewhite;
     
  }
