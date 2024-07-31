@@ -49,7 +49,7 @@
     height: 80px;
     padding-left: 100px; 
     line-height: 80px;
-    flex-grow: 0;
+    
    
  }
 
@@ -59,7 +59,7 @@
     padding-left: 300px;
  }
 
- ul > li {
+  li {
    list-style: none;
  }
  
@@ -72,32 +72,51 @@
  
 
  /* 자바스크립트 부분 */
- /* header,
- footer {
-     display: flex;
-     height: 100px;
-     align-items: center;
- }
- 
- header nav {
-     width: 600px;
-     margin: 58px 0 0 370px;
- }
- 
- header nav>ul {
-     display: flex;
- }
- 
- header ul a {
-     display: block;
-     text-align: center;
-     padding: 10px;
- }
 
- .menu {
+/* 기본설정 --------------- */
+/* * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+li {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+/* <header> -------------- */
+/* header,
+footer {
+   display: flex;
+   height: 100px;
+   align-items: center;
+}
+
+header nav {
+   width: 600px;
+   margin: 58px 0 0 370px;
+   background-color: aqua;
+}
+
+header nav>ul {
+   display: flex;
+}
+
+header ul a {
+   display: block;
+   text-align: center;
+   padding: 10px;
+}
+
+.menu {
    position: relative;
    width: 25%;
-
+}
 
 .submenu {
    position: absolute;
@@ -108,13 +127,9 @@
 }
 
 .menu:hover>a {
-   color: #000000;
-   background: rgb(138, 138, 138);
-} */
-
-
-
-
+   color: #1b7c3b;
+   background: yellowgreen;
+}  */
 
 
 
