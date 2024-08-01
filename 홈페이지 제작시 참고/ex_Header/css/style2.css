@@ -52,7 +52,7 @@ header {
     display: none;
 }
 
-header h1 a { display: block; width: 200px; height: 40px; }
+/* header h1 a { display: block; width: 200px; height: 40px; } */
 
 header nav { width: 600px; margin:  58px 0px 0px 370px;}
 header nav > ul { display: flex; }

@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+.wrap {
+    position: relative;
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.logo {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.headerBg {
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    left: 0;
+    top: 100px;
+    background: black;
+    z-index: 997;
+    display: none;
+}
+
+header nav {
+    width: 600px;
+    /* margin: 58px 0 0 370px; */
+    margin: 58px;
+}
+
+header nav>ul {
+    display: flex;
+    line-height: 50px;
+   
+}
+
+header nav ul a {
+    display: block;
+    text-align: center;
+    background: #fff;
+    /* padding: 10px; */
+}
+
+.menu {
+    position: relative;
+    width: 25%;
+}
+
+.submenu {
+    position: absolute;
+    width: 100%;
+    z-index: 998;
+    display: none;
+}
+
+.submenu a {
+    color: #fff;
+    background: black;
+}
+
+.menu:hover > a {
+    color: #fff;
+    background: black;
+}
+
+.submenu li:hover a  {
+    color: black;
+    background: #fff;
+}
+
+.slidecontent {
+    height: 300px;
+    line-height: 300px;
+    background-color: azure;
+    text-align: center;
+}
+
+.slide {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide > img {
+    position: absolute;
+    top: 0;
+    left: -100%;
+}
+
+.slide > img:first-child{
+    left: 0;
+}
+
+.content {
+    height: 200px;
+    display: flex;
+}
+
+.con1 {
+    width: 33.33%;
+    line-height: 200px;
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+
+.con2 {
+    width: 33.33%;
+    line-height: 200px;
+    background-color: yellow;
+    text-align: center;
+}
+
+
+.con3 {
+    width: 33.33%;
+    line-height: 200px;
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: start;
+}
+
+.ft1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.f1 {
+    width: 1000px;
+    height: 50%;
+    line-height: 50px;
+    background-color: rgb(128, 128, 128);
+    text-align: center;
+    color: #fff;
+
+}
+
+.f2 {
+    width: 1000px;
+    height: 50%;
+    line-height: 50px;
+    background-color: rgb(95, 95, 95);
+    text-align: center;
+    color: #fff;
+}
+
+.ft2 {
+    display: flex;
+}
+
+.f3 {
+    background-color: aquamarine;
+    width: 200px;
+    line-height: 100px;
+    text-align: center;
+
+}
